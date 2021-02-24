@@ -1,7 +1,7 @@
 package com.company;
 import java.util.Scanner;
 
-public class Main {
+public class Zadanie4 {
 
     public static void main(String[] args) {
 
@@ -14,8 +14,9 @@ public class Main {
         System.out.println(" Podaj kat c ");
         int katc = scanner.nextInt();
 
-        if(kata + katb > katc)
+        if (kata + katb > katc)
             System.out.println(" Trojkat Prawidlowy ");
         else
             System.out.println(" Trojkat Nieprawidlowy");
     }
+}
